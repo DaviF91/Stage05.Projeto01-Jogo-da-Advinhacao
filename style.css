@@ -8,25 +8,42 @@
 }
 
 body {
-  background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+  background: linear-gradient(287.56deg, #c2e9fb 0%, #a1c4fd 100%);
   font-size: 1.6rem;
 
   display: grid;
   place-items: center;
   height: 100vh;
-
 }
 
-body, button, input {
-  
-  font-family: "DM Sans", sans-serif;
+body,
+button,
+input {
+  font-family: 'DM Sans', sans-serif;
+}
+
+button {
+  background-color: #7879f1;
+  border-radius: 0 0.4rem 0.4rem 0;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #6b6bbb;
+}
+
+.hide {
+  display: none;
 }
 
 main {
-  
-  background: #FFFFFF;
-  box-shadow: 0rem .2rem .4rem rgba(0, 0, 0, 0.1);
-  border-radius: .6rem;
+  background: #ffffff;
+  box-shadow: 0rem 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.6rem;
   padding: 4.8rem 6.4rem 6.4rem;
 
   width: min(42.8rem, 90%);
@@ -34,19 +51,19 @@ main {
   margin-top: -12rem;
 
   text-align: center;
-
 }
+
+/* screen 1 */
 
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.4rem;
   margin-bottom: 1.6rem;
-
 }
 
-h1, p {
-  
-  color: #34355B;
+h1,
+p {
+  color: #34355b;
 }
 
 p {
@@ -59,20 +76,26 @@ form {
   justify-content: center;
 }
 
-input, button {
+input,
+button {
   border: none;
   padding: 1.6rem;
 }
 
 input {
-  background-color: #DCE2E9 ;
-  border-radius: .4rem 0 0 .4rem;
+  background-color: #dce2e9;
+  border-radius: 0.4rem 0 0 0.4rem;
   width: 6rem;
 }
 
-button {
-  background-color: #7879F1;
-  border-radius: 0 .4rem .4rem 0;
-  color: white;
-  font-weight: bold;
+/* screen 2 */
+h2 {
+  font-size: 2.4rem;
+  font-weight: normal;
+
+  margin-bottom: 3.3rem;
+}
+
+.screen2 button {
+  border-radius: 0.4rem;
 }
