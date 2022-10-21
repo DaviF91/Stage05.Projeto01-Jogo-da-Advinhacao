@@ -17,7 +17,7 @@ function handleTryClick(event) {
   const inputNumber = document.querySelector('#inputNumber')
 
   if (Number(inputNumber.value) < 0) {
-    alert('O número difitado não pode ser negativo')
+    alert('O número digitado não pode ser negativo')
     xAttempts--
   }
   if (Number(inputNumber.value) > 10) {
